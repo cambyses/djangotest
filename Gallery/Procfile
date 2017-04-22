@@ -1,1 +1,1 @@
-web: sh -c "cd Gallery && gunicorn Gallery.wsgi"
+web: gunicorn Gallery.wsgi --log-file -
